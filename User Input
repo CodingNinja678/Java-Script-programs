@@ -1,0 +1,25 @@
+"use strict";
+const ps = require("prompt-sync");
+const prompt = ps();
+//const prompt=require('prompt-sync')();
+var fname=prompt("Ënter your first name");
+var lname=prompt("Ënter your last name");
+console.log("Your full name is: ",fname,lname);
+
+Terminal:
+
+PS C:\Users\Suhan> D:
+PS D:\> npm install prompt-sync
+npm WARN saveError ENOENT: no such file or directory, open 'D:\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'D:\package.json'
+npm WARN !invalid#1 No description
+npm WARN !invalid#1 No repository field.
+npm WARN !invalid#1 No README data
+npm WARN !invalid#1 No license field.
+
++ prompt-sync@4.2.0
+added 3 packages from 3 contributors and audited 3 packages in 2.422s
+found 0 vulnerabilities
+
+I had to install prompt-sync in the D drive :D
