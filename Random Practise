@@ -1,0 +1,18 @@
+push()
+var Array=["hi","hello","hola"]
+Array.push["thanks","thank you"]
+
+O/P:
+Array=["hi","hello","hola",["thanks","thank you"]]
+
+
+pop()//remove  item
+var Array1=["hi","hello","hola"]
+var Array2=Array.pop()
+O/P:Array2="hola"
+
+shift()
+
+
+
+unshift()
