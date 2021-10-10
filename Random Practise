@@ -1,26 +1,6 @@
-push()
-var Array=["hi","hello","hola"]
-Array.push["thanks","thank you"]
+Running JavaScript
 
-O/P:
-Array=["hi","hello","hola",["thanks","thank you"]]
-
-
-pop()//remove  item
-var Array1=["hi","hello","hola"]
-var Array2=Array.pop()
-O/P:Array2="hola"
-
-shift()//removes final element
-var Array1=["hi","hello","hola"]
-var Array2=Array.shift()
-O/P:Array2="hola"
-var Array2=["hello","hola"]
-
-unshift()//opposite of shift
-
-
- Running JavaScript
+"use strict"
 
 Comment Your Code //
 Declare Variables //let,var,const
@@ -62,123 +42,409 @@ Divide Decimals
 Finding a Remainder
 
 Augmented Addition a=a-6 /a-=6
+
 Augmented Subtraction  a=a+6/ a+=6
+
 Agmented Multiplication  a=a*6/ a*=6
+
 Augmented Division   a=a/6/ a/=6
+
 Declare String Variables
+
 Escaping Literal Quotes
+
 Quoting Strings with Single Quotes
+
 Escape Sequences
+\b: backspace (U+0008 BACKSPACE)
+\f: form feed (U+000C FORM FEED)
+\n: line feed (U+000A LINE FEED)
+\r: carriage return (U+000D CARRIAGE RETURN)
+\t: horizontal tab (U+0009 CHARACTER TABULATION)
+\v: vertical tab (U+000B LINE TABULATION)
+\0: null character (U+0000 NULL) (only if the next character is not a decimal digit; else it’s an octal escape sequence)
+\': single quote (U+0027 APOSTROPHE)
+\": double quote (U+0022 QUOTATION MARK)
+\\: backslash (U+005C REVERSE SOLIDUS)
+
 Plus Operator
+
 Plus Equals Operator
+
 Constructing Strings with Variables
+
 Appending Variables to Strings
+
 Length of a String
+str.lrngth
+
 Bracket Notation
+
 Understand String Immutability
+
 Find the Nth Character
+
 Find the Last Character
+
 Find the Nth-to-Last Character
+
 Word Blanks
+
 Arrays
+var Array=["hi","hello","hola"]
+
 Nest Arrays
+
 Access Array Data
+
 Modify Array Data
+
 Access Multi-Dimensional Arrays
+
 push()
+
 pop()
+
 shift()
+
 unshift()
+push()
+var Array=["hi","hello","hola"]
+Array.push["thanks","thank you"]
+
+O/P:
+Array=["hi","hello","hola",["thanks","thank you"]]
+
+
+pop()//remove  item
+var Array1=["hi","hello","hola"]
+var Array2=Array.pop()
+O/P:Array2="hola"
+
+shift()//removes final element
+var Array1=["hi","hello","hola"]
+var Array2=Array.shift()
+O/P:Array2="hola"
+var Array2=["hello","hola"]
+
+unshift()//opposite of shift
+
 Shopping List
+
 Write Reusable with Functions
+
 Arguments
+
 Global Scope
+
 Local Scope
+
 Global vs Local Scope in Functions
+
 Return a Value from a Function
+
 Undefined Value returned
+
 Assignment with a Returned Value
+
 Stand in Line
+
 Boolean Values
+
 If Statements
+
 Equality Operator
+
 Strict Equality Operator
+
 Comparing different values
+
 Inequality Operator
+
 Strict Inequality Operator
+
 Greater Than Operator
+
 Greater Than Or Equal To Operator
+
 Less Than Operator
+
 Less Than Or Equal To Operator
+
 And Operator/
+
 Or Operator
+
 Else Statements
+
 Else If Statements
+
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
 Logical Order in If Else Statements
+
 Chaining If Else Statements
+
 Golf Code
+
 Switch Statements
+
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+
 Default Option in Switch Statements
+
 Identical Options in Switch Statements
+switch (new Date().getDay()) {
+  case 0:
+  case 1:
+    day = "Monday";
+    break;
+
+
+
 Replacing If Else Chains with Switch
+
 Returning Boolean Values from Functions
+
 Return Early Pattern for Functions
+
 Counting Cards
+
 Build Objects
+
 Dot Notation
+variable testOnj={
+"hat":"ballcap"
+"shirt":"jersey"
+"shoes":"cleats"
+};
+var hatValue=testObj.hat;
+var shirtValue=testObj.shirt;
+
 Bracket Notation
+variable testOnj={
+"hat":"ballcap"
+"shirt":"jersey"
+"shoes":"cleats"
+};
+var hatValue=testObj.["hat"];
+var shirtValue=testObj.["shirt"];
+
 Variables
+variable testObj={
+"hat":"ballcap"
+"shirt":"jersey"
+"shoes":"cleats"
+};
+var hatValue="ballcap";
+var shirtValue=testObj[hatvalue];
+
 Updating Object Properties
+variable testObj={
+"hat":"ballcap"
+"shirt":"jersey"
+"shoes":"cleats"
+};
+testObj.shoes="heels"
+
 Add New Properties to Object
+variable testOj={
+"hat":"ballcap"
+"shirt":"jersey"
+"shoes":"cleats"
+};
+testObj.['dog']="woof"
+
 Delete Properties from Object
-Objects for Lookups
+variable testOnj={
+"hat":"ballcap"
+"shirt":"jersey"
+"shoes":"cleats"
+};
+delete testObj.hat;
+
+Objects for Lookups(1:57)//using object instead of switch
+switch(val){
+case"cat":
+   result="meow";
+   break;
+case"dog"
+    result="woof";
+    break;
+ case "cow"
+     result="moo";
+     break;
+     
+var lookup={
+   "cat":"meow"
+    "dog":"woof"
+    "cow":"moo"
+};
+reult =lookup[val]
+return result;
+
 Testing Objects for Properties 
+var myObj={
+  gift:"pony"
+  };
+  function checkobj(checkproperty)
+  if(myObj.hasOwnProperty(checkproperty)){
+  return myObj[checkproperty];
+  }
+  else{
+   return "Not found"
+  }
+  }
+  
+ console.log(checkobj("gift"));
+  
 Manipulating Complex Objects
+
 Nested Objects
+
+
 Nested Arrays
+
 Record Collection
+
 While Loops
+
 For Loops
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
 Odd Numbers With a For Loop
+
 Count Backwards With a For Loop
+
 Iterate Through an Array with a For Loop
+
 Nesting For Loops
+
 Do...While Loops
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
+
 Profile Lookup
+
 Random Fractions
+Math.random
+
 Random Whole Numbers
+//no b/w 0 and 9
+Math.floor(Math.random()*10)
+
 Random Whole Numbers within a Range
+Math.floor(Math.random()*(Max-Min +1)+Min)
+
 parseInt Function
+//converts string to int
+parseInt(str)
+"56"=56
+
 parseInt Function with a Radix
+//default is base 10
+parseInt(str,2)//base 2
+
 Ternary Operator
+:
+var age = 26;
+var beverage = (age >= 21) ? "Beer" : "Juice";
+console.log(beverage); // "Beer"
+
 Multiple Ternary Operators
+
 var vs let
+let is used because var can be declared twice
+
 var vs let scopes
+var-global
+let-limited to a chunk of code
+
 const Keyword
+cannot change in the program
+
 Mutate an Array Declared with const
+
+
+
+
+
 Prevent Object Mutation
+
 Arrow Functions
+
 Arrow Functions with Parameters
+
 Higher Order Arrow Functions
+
+
 Default Parameters
+
 Rest Operator
+
 Spread Operator
+
 Destructuring Assignment: Objects
+
 Destructuring Assignment: Nested Objects
+
 Destructuring Assignment: Arrays
+
 Destructuring Assignment with Rest Operator to Reassign Array
+
 Destructuring Assignment to Pass an Object
+
 Template Literals
+
 Simple Fields
+
 Declarative Functions
+
 class Syntax
+
 getters and setters
+
 import vs require
+
 export
+
 * to Import
+
 export default
+
 Import a Default Export
 
+try catch block
 
 
 
