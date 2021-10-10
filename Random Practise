@@ -11,8 +11,272 @@ var Array1=["hi","hello","hola"]
 var Array2=Array.pop()
 O/P:Array2="hola"
 
+shift()//removes final element
+var Array1=["hi","hello","hola"]
+var Array2=Array.shift()
+O/P:Array2="hola"
+var Array2=["hello","hola"]
+
+unshift()//opposite of shift
+
+
+ Running JavaScript
+
+Comment Your Code //
+Declare Variables //let,var,const
+
+var myName="Beau"
+myName=8
+//used throughout whole program
+let ourName="Hello"
+//used within scope where defined
+const pi=3.14
+//can never be changed
+
+Storing Values with the Assignment Operator =
+
+Initializing Variables with the Assignment Operator
+
+Uninitialized Variables
+
+Case Sensitivity in Variables cat not equal to cAt
+
+Add Two Numbers +
+
+Sbtract One Number from Another-
+
+Multiply Two Numbers *
+
+Dividing Numbers / and remainder is  %
+
+Increment Var++
+
+Decrement Var--
+
+Decimal Numbers
+
+Multiply Two Decimals
+
+Divide Decimals
+
+Finding a Remainder
+
+Augmented Addition a=a-6 /a-=6
+Augmented Subtraction  a=a+6/ a+=6
+Agmented Multiplication  a=a*6/ a*=6
+Augmented Division   a=a/6/ a/=6
+Declare String Variables
+Escaping Literal Quotes
+Quoting Strings with Single Quotes
+Escape Sequences
+Plus Operator
+Plus Equals Operator
+Constructing Strings with Variables
+Appending Variables to Strings
+Length of a String
+Bracket Notation
+Understand String Immutability
+Find the Nth Character
+Find the Last Character
+Find the Nth-to-Last Character
+Word Blanks
+Arrays
+Nest Arrays
+Access Array Data
+Modify Array Data
+Access Multi-Dimensional Arrays
+push()
+pop()
 shift()
-
-
-
 unshift()
+Shopping List
+Write Reusable with Functions
+Arguments
+Global Scope
+Local Scope
+Global vs Local Scope in Functions
+Return a Value from a Function
+Undefined Value returned
+Assignment with a Returned Value
+Stand in Line
+Boolean Values
+If Statements
+Equality Operator
+Strict Equality Operator
+Comparing different values
+Inequality Operator
+Strict Inequality Operator
+Greater Than Operator
+Greater Than Or Equal To Operator
+Less Than Operator
+Less Than Or Equal To Operator
+And Operator/
+Or Operator
+Else Statements
+Else If Statements
+Logical Order in If Else Statements
+Chaining If Else Statements
+Golf Code
+Switch Statements
+Default Option in Switch Statements
+Identical Options in Switch Statements
+Replacing If Else Chains with Switch
+Returning Boolean Values from Functions
+Return Early Pattern for Functions
+Counting Cards
+Build Objects
+Dot Notation
+Bracket Notation
+Variables
+Updating Object Properties
+Add New Properties to Object
+Delete Properties from Object
+Objects for Lookups
+Testing Objects for Properties 
+Manipulating Complex Objects
+Nested Objects
+Nested Arrays
+Record Collection
+While Loops
+For Loops
+Odd Numbers With a For Loop
+Count Backwards With a For Loop
+Iterate Through an Array with a For Loop
+Nesting For Loops
+Do...While Loops
+Profile Lookup
+Random Fractions
+Random Whole Numbers
+Random Whole Numbers within a Range
+parseInt Function
+parseInt Function with a Radix
+Ternary Operator
+Multiple Ternary Operators
+var vs let
+var vs let scopes
+const Keyword
+Mutate an Array Declared with const
+Prevent Object Mutation
+Arrow Functions
+Arrow Functions with Parameters
+Higher Order Arrow Functions
+Default Parameters
+Rest Operator
+Spread Operator
+Destructuring Assignment: Objects
+Destructuring Assignment: Nested Objects
+Destructuring Assignment: Arrays
+Destructuring Assignment with Rest Operator to Reassign Array
+Destructuring Assignment to Pass an Object
+Template Literals
+Simple Fields
+Declarative Functions
+class Syntax
+getters and setters
+import vs require
+export
+* to Import
+export default
+Import a Default Export
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
